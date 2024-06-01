@@ -67,7 +67,7 @@ async function writeToFile(fileName) { // function that writes README file
     const data = generateMarkdown(responses);
 
     try {
-        await fs.writeFile(fileName, data, 'utf8');
+        await fs.writeFile(`./createdFiles/${fileName}`, data, 'utf8');
         console.log(`Successfully created ${fileName}!`);
     } catch (err) {
         console.error(err);
