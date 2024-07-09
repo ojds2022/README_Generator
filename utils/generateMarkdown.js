@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
       'Open Database License': '[![License: ODbL](https://img.shields.io/badge/License-ODbL-brightgreen.svg)](https://opendatacommons.org/licenses/odbl/)',
       'Mozilla Public License 2.0': '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)',
       'GNU Affero General Public License 3.0': '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
-      'None': ''
+      'None': 'None'
   };
 
   return badges[license] || ''; // returns the badge markdown string corresponding to the provided licence. If the license isn't in the dictionary, it defaults to returning an empyt string.
