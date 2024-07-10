@@ -21,7 +21,7 @@ A video showing how to use this app can be found here: https://drive.google.com/
 
 A video of the app being used can be seen here: https://drive.google.com/file/d/12VcVH_ZKAOZv5ScYXW-35BtV_EyZZ5pv/view
 
-## Liscense
+## License
 None
 
 ## Contributing

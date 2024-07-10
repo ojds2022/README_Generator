@@ -70,7 +70,7 @@ ${responses.installation}
 ## Usage
 ${responses.usage}
 
-## Liscense
+## License
 ${renderLicenseBadge(responses.license)}
 ${renderLicenseSection(responses.license)}
 
